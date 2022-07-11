@@ -6,7 +6,7 @@ DOCKER_NAME ?= uCore-RV-64-Base
 DIR := workplace
 .PHONY: docker build_docker
 
-test: test1 test2
+test: test1
 
 lab1: test3
 
